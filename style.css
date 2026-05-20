@@ -186,8 +186,10 @@ h4 { font-size: 0.95rem; font-weight: 600; }
 }
 
 .nav-logo img {
-    height: 36px;
-    width: auto;
+    width: 160px;
+    height: 52px;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .logo-text {
@@ -302,7 +304,7 @@ h4 { font-size: 0.95rem; font-weight: 600; }
     width: 100%;
     height: 520px;
     object-fit: cover;
-    object-position: top center;
+    object-position: right center;
     border-radius: var(--radius);
 }
 
@@ -458,7 +460,7 @@ h4 { font-size: 0.95rem; font-weight: 600; }
 }
 
 .card-section ul li::before {
-    content: '—';
+    content: '-';
     position: absolute;
     left: 0;
     color: var(--gold);
@@ -638,14 +640,7 @@ blockquote {
 .calendar-embed {
     border-radius: var(--radius);
     overflow: hidden;
-    border: 1px dashed var(--border);
-    min-height: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--bg);
-    padding: 4rem 2rem;
-    text-align: center;
+    border: 1px solid var(--border);
 }
 
 .calendar-embed iframe {
@@ -797,6 +792,14 @@ blockquote {
     padding-bottom: 2.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     flex-wrap: wrap;
+}
+
+.footer-logo {
+    width: 140px;
+    height: 46px;
+    object-fit: cover;
+    object-position: center center;
+    margin-bottom: 0.5rem;
 }
 
 .footer-brand .logo-text {
