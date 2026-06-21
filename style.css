@@ -1494,6 +1494,13 @@ blockquote {
     line-height: 1.7;
 }
 
+.past-event-card .event-meta-small {
+    font-size: 0.8rem;
+    color: var(--navy);
+    opacity: 0.6;
+    margin-bottom: 0.5rem;
+}
+
 /* ===========================
    RESPONSIVE — TABLET
 =========================== */
